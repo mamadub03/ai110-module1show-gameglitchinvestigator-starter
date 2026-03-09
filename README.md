@@ -30,9 +30,13 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
+The game's purpose is to guess the number. The bugs I found is that the secret number kept resetting and the high and low hints werent working. I changed it so that the number is generated once and not changed on any button click. To fix the hints I had to change how the logic was applied
+
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+
+![alt text](image.png)
 
 ## 🚀 Stretch Features
 

@@ -33,13 +33,15 @@ AI suggested the changes by making the switches in logic that I was unable to po
 ---
 
 
-
+I described whether a bug was fixed by actually testing the change inside of the live environment. The AI helped me see where the issue was going wrong and helped me diagnose it.
 
 ## 4. What did you learn about Streamlit and state?
 
 - In your own words, explain why the secret number kept changing in the original app.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
+
+The reason why it kept changing because anytime you clicked a button, streamlit ended up restarting the whole app again from the top. I would say the reruns are like when a whole entire paper gets erased whenever somebody speaks in a room or does an action. The way I changed it was by only generating a number once the very first round
 
 ---
 
@@ -49,3 +51,5 @@ AI suggested the changes by making the switches in logic that I was unable to po
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I want to reuse how I go about defining and fixing a bug. One thing I will do differently is go deeper in the AI solution and not just trusting it right away. This proejct showed how AI generated code is not perfect and can lead to issues which is why developers are very important.
