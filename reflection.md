@@ -8,6 +8,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+Some of the bugs that I ran into were that I could input values under 0 and over 100. I did not expect to be able to add invalid values. The comparison does not work as it's saying lower for numbers that are higher and vice versa; I would expect the comparison to work properly. The code does not work when I click restart game. I expected the code to restart properly.
+
 ---
 
 ## 2. How did you use AI as a teammate?
@@ -15,6 +17,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+
+AI suggested the changes by making the switches in logic that I was unable to point out the problems. I was able to use AI to figure out how to switch and update the logic. One example where AI didn't work was with the test cases.
+
 
 ---
 
@@ -26,6 +31,9 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - Did AI help you design or understand any tests? How?
 
 ---
+
+
+
 
 ## 4. What did you learn about Streamlit and state?
 
